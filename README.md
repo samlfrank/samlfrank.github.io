@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -233,8 +233,7 @@
       </div>
 
       <p class="hint">
-        Point at any barcode (real or pretend).<br />
-        When your kid taps the screen, it will beep and show a big green check ✔️
+       Scan barcode now for train boarding validation.<br />
       </p>
 
       <div class="controls">
@@ -245,7 +244,7 @@
       </div>
 
       <p class="tiny">
-        Camera might require HTTPS and permission. Even if the camera fails, tapping still works.
+        Camera might require HTTPS and permission.
       </p>
 
       <p id="status">Status: Ready</p>
@@ -256,8 +255,8 @@
   <div id="overlay">
     <div class="overlay-card">
       <div class="check-circle">✓</div>
-      <h2 class="overlay-title">Beep! Scanned!</h2>
-      <p class="overlay-sub">This item is now in the pretend cart ✅</p>
+      <h2 class="overlay-title">BEEP! All Aboard the Birthday Express!</h2>
+      <p class="overlay-sub">This passenger is ready for boarding ✅</p>
       <button id="scanAgainButton" class="scan-again-btn">
         <span class="emoji">🔁</span>
         <span>Scan Another</span>
